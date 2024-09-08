@@ -106,7 +106,7 @@ public class MenuGUI extends JFrame {
     // create method to change background color
     private void changeBackgroundColor() {
         Random random = new Random();
-        float hue = random.nextFloat() * 0.3f;  // Restrict hue to green range
+        float hue = (float) (0.25f + (random.nextFloat() * (0.45f - 0.25)));
         float saturation = 1.0f;
         float brightness = 1.0f;
         Color randomGreen = Color.getHSBColor(hue, saturation, brightness);
