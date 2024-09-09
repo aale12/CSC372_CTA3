@@ -113,7 +113,7 @@ public class MenuGUI extends JFrame {
 
         // set background color
         panel.setBackground(randomGreen);
-        textArea.append("Background Color set to: " + randomGreen + "\n");
+        textArea.append("Background Color Hue set to: " + "[R:" + randomGreen.getRed() + " G:" + randomGreen.getGreen() + " B:" + randomGreen.getBlue() + "]\n");
     }
 
     public static void main(String[] args) {
